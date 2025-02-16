@@ -51,8 +51,15 @@ Data preprocessing was performed to ensure the dataset is suitable for the neura
 Exploratory data analysis (EDA) was conducted to understand the characteristics of the data:
 
 - **Feature Distribution**: The distribution of numerical features such as `Income`, `CCAvg`, and `Mortgage` was plotted. Outliers were identified but not removed, as they represent valid cases.
+  ![image](https://github.com/user-attachments/assets/64d6ced2-e8f9-44ef-af13-a32adb5858d9)
+  ![image](https://github.com/user-attachments/assets/8b5547fc-6bdf-454c-976a-41e93b5cd5c7)
+  ![image](https://github.com/user-attachments/assets/134ba46a-f576-42a7-bde3-c68326413989)
+
 - **Correlation Analysis**: Strong correlations were observed between `Age` and `Experience`, indicating that older customers often have more years of professional experience.
+  ![image](https://github.com/user-attachments/assets/8694f07a-9113-4f37-b30c-b945a2e59d4e)
+
 - **Class Imbalance**: The target variable (`Personal Loan`) showed a slight imbalance between the classes (loan granted vs. loan denied), which was noted for evaluation.
+  ![image](https://github.com/user-attachments/assets/51bf0215-98d6-4bbe-a53e-1de388d21d24)
 
 ## Model Architecture
 For this binary classification task, a **Backpropagation Neural Network (BPNN)** was designed with the following architecture:
