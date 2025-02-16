@@ -59,6 +59,7 @@ Exploratory data analysis (EDA) was conducted to understand the characteristics 
   ![image](https://github.com/user-attachments/assets/8694f07a-9113-4f37-b30c-b945a2e59d4e)
 
 - **Class Imbalance**: The target variable (`Personal Loan`) showed a slight imbalance between the classes (loan granted vs. loan denied), which was noted for evaluation.
+
   ![image](https://github.com/user-attachments/assets/51bf0215-98d6-4bbe-a53e-1de388d21d24)
 
 ## Model Architecture
